@@ -1,0 +1,66 @@
+@model LojaDeConstrucao.Web.ViewsModels.ProdutoViewModel
+@using LojaDeConstrucao.Web.ViewsModels
+@{
+    ViewData["Title"] = "Categoria";
+}
+
+<div class="row header">
+    <div class="col-md-12">
+        <h3>Product</h3>
+        <a href="/Produto" class="btn btn-primary">Voltar</a>
+    </div>
+</div>
+<div class="row form-wrapper">
+    <div class="col-md-12">
+        <form id="form" class="form-horizontal" asp-action="CreateOrEdit" asp-controller="Produto" 
+            data-ajax="true" data-ajax-method="POST" data-ajax-failure="formOnFail" data-ajax-success="window.location = '/Produto'"
+            asp-anti-forgery>
+            <input type="hidden" class="form-control" asp-for="Id" >
+            <div class="form-group">
+                <label class="col-md-2 control-label">Nome</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="Nome" >    
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-2 control-label">Categoria</label>
+                <div class="col-md-2">
+                    <select class="form-control" asp-for="IdCategoria" asp-items="@(new SelectList(@Model.Categorias,"Id","Nome"))">
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-2 control-label">Preço</label>
+                <div class="col-md-8">
+                    <input id="preco" type="text" class="form-control" asp-for="Preco" >
+                    <span asp-validation-for="Preco" class="text-danger"></span>        
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-2 control-label">Stock Quantity</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" asp-for="QtdeEstoque" >
+                    <span asp-validation-for="QtdeEstoque" class="text-danger"></span>    
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-8">
+                    <button class="btn btn-success">Salvar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/jquery.validate.unobtrusive.js"></script>
+    <script src="/js/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/autonumeric/2.0.0/autoNumeric.min.js"></script>
+    <script>
+        // $(function(){
+        //     $('#preco').autoNumeric('init');
+        // });
+    </script>
+}

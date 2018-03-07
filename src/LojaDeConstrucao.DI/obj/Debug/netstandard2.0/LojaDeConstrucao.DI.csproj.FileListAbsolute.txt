@@ -1,0 +1,12 @@
+C:\cursoAspNetcore\Sistema\src\LojaDeConstrucao.DI\bin\Debug\netstandard2.0\LojaDeConstrucao.DI.deps.json
+C:\cursoAspNetcore\Sistema\src\LojaDeConstrucao.DI\bin\Debug\netstandard2.0\LojaDeConstrucao.DI.dll
+C:\cursoAspNetcore\Sistema\src\LojaDeConstrucao.DI\bin\Debug\netstandard2.0\LojaDeConstrucao.DI.pdb
+C:\cursoAspNetcore\Sistema\src\LojaDeConstrucao.DI\obj\Debug\netstandard2.0\LojaDeConstrucao.DI.csproj.CoreCompileInputs.cache
+C:\cursoAspNetcore\Sistema\src\LojaDeConstrucao.DI\obj\Debug\netstandard2.0\LojaDeConstrucao.DI.AssemblyInfoInputs.cache
+C:\cursoAspNetcore\Sistema\src\LojaDeConstrucao.DI\obj\Debug\netstandard2.0\LojaDeConstrucao.DI.AssemblyInfo.cs
+C:\cursoAspNetcore\Sistema\src\LojaDeConstrucao.DI\obj\Debug\netstandard2.0\LojaDeConstrucao.DI.dll
+C:\cursoAspNetcore\Sistema\src\LojaDeConstrucao.DI\obj\Debug\netstandard2.0\LojaDeConstrucao.DI.pdb
+C:\cursoAspNetcore\Sistema\src\LojaDeConstrucao.DI\bin\Debug\netstandard2.0\LojaDeConstrucao.Data.dll
+C:\cursoAspNetcore\Sistema\src\LojaDeConstrucao.DI\bin\Debug\netstandard2.0\LojaDeConstrucao.Domain.dll
+C:\cursoAspNetcore\Sistema\src\LojaDeConstrucao.DI\bin\Debug\netstandard2.0\LojaDeConstrucao.Data.pdb
+C:\cursoAspNetcore\Sistema\src\LojaDeConstrucao.DI\bin\Debug\netstandard2.0\LojaDeConstrucao.Domain.pdb
